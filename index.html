@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Feedback Form</h1>
+  <P>We value your opinion! Please fill this form</P>
+  <br><br>
+  <form>
+
+    <h2>Personal Information Section</h2>
+    <span>Name:&ensp;&ensp;&ensp;&ensp;&ensp; </span><input type="text" placeholder="Enter Your Name">
+    <br><br>
+    <span>Email:&ensp;&ensp;&ensp;&ensp;&ensp; </span><input type="email" placeholder="Enter Your Email">
+    <br><br>
+    <span>Age:&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; </span> <input type="number" placeholder="Your Age">
+    <br><br>
+
+    <span>Gender:&ensp;&ensp;&ensp;</span>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Male">
+    <label for="female">Female</label>
+    <input type="radio" id="others" name="gender" value="Male">
+    <label for="others">Others</label>
+
+    <br><br>
+
+    <h2>Survey Questions Section</h2>
+    <label for="dropwown">Which course are you learning?</label>
+    <select name="Which course are you learning?" id="dropwown">
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="ReactJS">ReactJS</option>
+    </select>
+    <br><br>
+    <span>What Tag do you find interesting?</span>
+
+    <input type="radio" name="topic" value="Tag" id="tag">
+    <label for="tag"><b><i>Meta</i></b> Tag</label>
+
+    <input type="radio" name="topic" value="H" id="H">
+    <label for="H"><b><i>H</i></b> Tag</label>
+
+    <input type="radio" name="topic" value="P" id="P">
+    <label for="P"><b><i>P</i></b> Tag</label>
+
+    <input type="radio" name="topic" value="Img" id="Img">
+    <label for="Img"><b><i>Img</i></b> Tag</label>
+
+    <input type="radio" name="topic" value="video" id="video">
+    <label for="video"><b><i>Video</i></b> Tag</label>
+
+    <input type="radio" name="topic" value="Audio" id="Audio">
+    <label for="Audio"><b><i>Audio</i></b> Tag</label>
+    <br><br>
+
+    <span>Rating :</span>
+
+    <input type="checkbox" id="r1" value="r1" name="Rating">
+    <label for="r1">1</label>
+
+    <input type="checkbox" id="r2" value="r2" name="Rating">
+    <label for="r2">2</label>
+
+    <input type="checkbox" id="r3" value="r3" name="Rating">
+    <label for="r3">3</label>
+
+    <input type="checkbox" id="r4" value="r4" name="Rating">
+    <label for="r4">4</label>
+
+    <input type="checkbox" id="r5" value="r5" name="Rating">
+    <label for="r5">5</label>
+    <br><br>
+
+    <textarea name="Any suggestions or comments?" placeholder="Any suggestions or comments?"></textarea>
+    <br><br>
+
+    <input type="checkbox" id="agree">
+    <label for="agree">I agree to share my feedback</label>
+    <br><br><br><br>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
